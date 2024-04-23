@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuadro y Botones</title>
+    <style>
+        /* Tu CSS aquí */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form id="searchForm" action="/buscar" method="post">
+            <div class="input-container">
+                <input type="text" id="estadoInicial" name="estado_inicial" placeholder="Estado inicial" value="4,2,3,1">
+                <input type="text" id="solucion" name="solucion" placeholder="Solución" value="1,2,3,4">
+            </div>
+            <button type="button" onclick="buscarSolucionBFS()">Buscar Solución BFS</button>
+            <button type="button" onclick="buscarVuelos()">Buscar Solución Vuelos</button>
+            <button type="button" onclick="buscarDFS()">Buscar Solución DFS</button>
+            <button type="button" onclick="buscarDFSI()">Buscar Solución DFSI</button>
+            <button type="button" onclick="buscarDFSR()">Buscar Solución DFSR</button>
+            <button type="button" onclick="buscarDK()">Buscar Solución DK</button>
+            <!-- Otros botones y elementos aquí -->
+        </form>
+        <div id="resultado"></div>
+    </div>
+
+
+    <script src="../static/metods.js"></script>
+</body>
+</html>
