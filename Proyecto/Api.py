@@ -4,7 +4,7 @@ import cv2
 
 # Definir la URL de la API y tu API key
 api_url = 'https://api.platerecognizer.com/v1/plate-reader/'
-api_key = 'd39b74a5426d40930618746f302aa90c913c6547'  # Reemplaza con tu clave de API
+api_key = 'd39b74a5426d40930618746f302aa90c913c6547'  
 
 # Función para tomar una foto con la cámara
 def capture_photo():
