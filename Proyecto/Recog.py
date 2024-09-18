@@ -3,9 +3,9 @@ import requests
 from pprint import pprint
 
 # Configuración
-api_token = 'Token d39b74a5426d40930618746f302aa90c913c6547'  # Reemplaza con tu clave de API
-phone_camera_url = "http://192.168.1.24:8080/video"  # Reemplaza con la dirección IP y puerto de tu teléfono
-regions = ["mx", "us-ca"]  # Cambia a tu país
+api_token = 'Token d39b74a5426d40930618746f302aa90c913c6547'  
+phone_camera_url = "http://192.168.1.24:8080/video"  
+regions = ["mx", "us-ca"]  
 # Función para capturar una foto desde la transmisión de la cámara
 def capture_photo_from_phone_camera():
     cap = cv2.VideoCapture(phone_camera_url)
