@@ -1,8 +1,8 @@
 import requests
 from pprint import pprint
 
-regions = ["mx", "us-ca"]  # Cambia a tu país
-image_path = '/Users/gaelfranco/Downloads/prueba.jpeg'  # Ruta de tu imagen
+regions = ["mx", "us-ca"]  
+image_path = '/Users/gaelfranco/Downloads/prueba.jpeg' 
 
 with open(image_path, 'rb') as fp:
     response = requests.post(
